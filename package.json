@@ -1,0 +1,17 @@
+{
+  "name": "npm-plugin-fetcher",
+  "version": "1.0.0",
+  "description": "Fetch data about packages on npm that match a keyword",
+  "main": "index.js",
+  "scripts": {
+    "test": "mkdir -p test && node index.js chai-plugin -o test && ls test/*.json && rm -rf test/ && echo tests passed"
+  },
+  "bin": {
+    "npm-plugin-fetcher": "./index.js"
+  },
+  "author": "Keith Cirkel <npm@keithcirkel.co.uk> (http://keithcirkel.co.uk/)",
+  "license": "MIT",
+  "dependencies": {
+    "cli": "^0.6.5"
+  }
+}
