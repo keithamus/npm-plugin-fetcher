@@ -1,6 +1,6 @@
 {
   "name": "npm-plugin-fetcher",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Fetch data about packages on npm that match a keyword",
   "main": "index.js",
   "scripts": {
